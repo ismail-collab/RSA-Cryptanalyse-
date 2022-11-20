@@ -1,5 +1,5 @@
-# PollardRsaCracker
-This is my implementation of RSA cracking algorithm based on Pollard factorization. It will work if the numbers `p - 1` and `q - 1` that form `n = p * q` (as a part of the public key, `p` and `q` are prime), have no large maximum prime power factors. Of course, all modern RSA implementations don't have this security issue so this is more of an educational project.
+# Brut Force : Inverse Modulo
+This is my implementation of RSA cracking algorithm based on Pollard factorization. It will work if the numbers `p - 1` and `q - 1` that form `n = p * q` (as a part of the public key, `p` and `q` are prime), have no large maximum prime power factors.
 
 # Usage
 In order to start the script, simply run `python cracker.py`
